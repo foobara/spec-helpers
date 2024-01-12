@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative "lib/foobara/spec_helpers/version"
 
 Gem::Specification.new do |spec|
@@ -23,8 +21,9 @@ Gem::Specification.new do |spec|
     "LICENSE.txt"
   ]
 
-  spec.require_paths = ["lib", "src"]
+  spec.require_paths = %w[lib src]
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
+  spec.metadata["rubygems_mfa_required"] = "true"
 end
