@@ -17,11 +17,10 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir[
     "lib/**/*",
-    "src/**/*",
     "LICENSE.txt"
   ]
 
-  spec.require_paths = %w[lib src]
+  spec.require_paths = %w[lib]
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
