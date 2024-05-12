@@ -1,5 +1,9 @@
 ## [Unreleased]
 
-## [0.1.0] - 2024-01-11
+## [0.0.1] - 2024-05-12
 
-- Initial release
+* Soft-launch for demos
+
+## [0.0.0] - 2023-07-12
+
+* Project birth

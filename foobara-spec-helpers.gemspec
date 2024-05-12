@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
 
   spec.require_paths = %w[lib]
 
-  # Uncomment to register a new dependency of your gem
-  # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_dependency "foobara-util"
+
   spec.metadata["rubygems_mfa_required"] = "true"
 end

@@ -1,7 +1,7 @@
 module RspecHelpers
   module StubClass
     module ClassMethods
-      def stub_class(name, superclass = nil, which: :class, &block)
+      def stub_class(name, superclass = nil, which: :class, &)
         name = name.to_s if name.is_a?(::Symbol)
 
         unless metadata.key?(:foobara_stubbed_modules)
@@ -20,7 +20,7 @@ module RspecHelpers
 
         metadata[:foobara_stubbed_modules] << name
 
-        Foobara::Util.make_class(name, superclass, which:, &block)
+        Foobara::Util.make_class(name, superclass, which:, &)
       end
 
       def stub_module(name, &)
