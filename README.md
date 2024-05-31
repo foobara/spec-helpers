@@ -17,4 +17,5 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/foobar
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+foobara-spec-helpers is licensed under your choice of the Apache License 2.0 or the MIT license.
+See [LICENSE.txt](LICENSE-MIT.txt) for more info about licensing.

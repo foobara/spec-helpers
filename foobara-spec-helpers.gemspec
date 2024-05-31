@@ -8,7 +8,11 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Common spec helpers used in various Foobara projects."
   spec.homepage = "https://github.com/foobara/spec-helpers"
-  spec.license = "MIT"
+
+  # Equivalent to SPDX License Expression: Apache-2.0 OR MIT
+  spec.license = "Apache-2.0 OR MIT"
+  spec.licenses = ["Apache-2.0", "MIT"]
+
   spec.required_ruby_version = ">= 3.2.2"
 
   spec.metadata["homepage_uri"] = spec.homepage
