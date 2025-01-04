@@ -1,4 +1,4 @@
-require_relative "lib/foobara/spec_helpers/version"
+require_relative "version"
 
 local_ruby_version = File.read("#{__dir__}/.ruby-version").chomp
 local_ruby_version_minor = local_ruby_version[/\A(\d+\.\d+)\.\d+\z/, 1]
