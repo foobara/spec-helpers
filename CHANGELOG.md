@@ -1,3 +1,7 @@
+## [0.1.0] - 2026-02-19
+
+- Make sure Foobara::Util is loaded in contexts where we're not relying on Foobara
+
 ## [0.0.4] - 2025-01-04
 
 - Bump Ruby to 3.4.1

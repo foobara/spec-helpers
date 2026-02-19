@@ -1,3 +1,5 @@
+require "foobara/util"
+
 module RspecHelpers
   module StubClass
     module ClassMethods
