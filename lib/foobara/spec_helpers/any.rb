@@ -1,3 +1,4 @@
+# TODO: Does anything use this??
 RSpec::Matchers.define :any do |expectation|
   match do |actual|
     actual.any? { |item| expectation === item }

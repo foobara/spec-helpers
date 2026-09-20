@@ -1,4 +1,7 @@
+require_relative "version"
+
 source "https://rubygems.org"
+ruby Foobara::SpecHelpers::MINIMUM_RUBY_VERSION
 
 gemspec
 

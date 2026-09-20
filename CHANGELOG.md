@@ -1,3 +1,7 @@
+## [0.1.1] - 2026-09-19
+
+- Add be_one_of and be_a_boolean matchers
+
 ## [0.1.0] - 2026-02-19
 
 - Make sure Foobara::Util is loaded in contexts where we're not relying on Foobara

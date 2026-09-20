@@ -1,9 +1,5 @@
 require_relative "version"
 
-local_ruby_version = File.read("#{__dir__}/.ruby-version").chomp
-local_ruby_version_minor = local_ruby_version[/\A(\d+\.\d+)\.\d+\z/, 1]
-minimum_ruby_version = "#{local_ruby_version_minor}.0"
-
 Gem::Specification.new do |spec|
   spec.name = "foobara-spec-helpers"
   spec.version = Foobara::SpecHelpers::VERSION
@@ -17,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.license = "Apache-2.0 OR MIT"
   spec.licenses = ["Apache-2.0", "MIT"]
 
-  spec.required_ruby_version = ">= #{minimum_ruby_version}"
+  spec.required_ruby_version = Foobara::SpecHelpers::MINIMUM_RUBY_VERSION
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
